@@ -1,0 +1,17 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+106839510808438794 [label="/\\ Matcher = \"\"\n/\\ Mismatcher = \"\"\n/\\ Winner = \"\"\n/\\ GameOver = FALSE",style = filled]
+106839510808438794 -> 5871616432532549949 [label="",color="2",fontcolor="2"];
+5871616432532549949 [label="/\\ Matcher = \"Heads\"\n/\\ Mismatcher = \"Heads\"\n/\\ Winner = \"Matcher\"\n/\\ GameOver = TRUE"];
+106839510808438794 -> 7458358437214985411 [label="",color="2",fontcolor="2"];
+7458358437214985411 [label="/\\ Matcher = \"Heads\"\n/\\ Mismatcher = \"Tails\"\n/\\ Winner = \"Mismatcher\"\n/\\ GameOver = TRUE"];
+106839510808438794 -> -4365000759729245275 [label="",color="2",fontcolor="2"];
+-4365000759729245275 [label="/\\ Matcher = \"Tails\"\n/\\ Mismatcher = \"Heads\"\n/\\ Winner = \"Mismatcher\"\n/\\ GameOver = TRUE"];
+106839510808438794 -> 7341480697782469090 [label="",color="2",fontcolor="2"];
+7341480697782469090 [label="/\\ Matcher = \"Tails\"\n/\\ Mismatcher = \"Tails\"\n/\\ Winner = \"Matcher\"\n/\\ GameOver = TRUE"];
+{rank = same; 106839510808438794;}
+}
+}
