@@ -1,0 +1,25 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-4016890848435527345 [label="/\\ playerTurn = \"START\"\n/\\ winner = \"NONE\"\n/\\ heaps = <<1, 1, 1>>\n/\\ gameOver = FALSE",style = filled]
+-4016890848435527345 -> -4421931157050579440 [label="",color="2",fontcolor="2"];
+-4421931157050579440 [label="/\\ playerTurn = \"P1\"\n/\\ winner = \"NONE\"\n/\\ heaps = <<0, 1, 1>>\n/\\ gameOver = FALSE"];
+-4016890848435527345 -> -8392747434911481575 [label="",color="2",fontcolor="2"];
+-8392747434911481575 [label="/\\ playerTurn = \"P1\"\n/\\ winner = \"NONE\"\n/\\ heaps = <<1, 0, 1>>\n/\\ gameOver = FALSE"];
+-4016890848435527345 -> -3301816474497259784 [label="",color="2",fontcolor="2"];
+-3301816474497259784 [label="/\\ playerTurn = \"P1\"\n/\\ winner = \"NONE\"\n/\\ heaps = <<1, 1, 0>>\n/\\ gameOver = FALSE"];
+-4421931157050579440 -> -1122631937242885523 [label="",color="2",fontcolor="2"];
+-1122631937242885523 [label="/\\ playerTurn = \"P2\"\n/\\ winner = \"P2\"\n/\\ heaps = <<0, 0, 1>>\n/\\ gameOver = TRUE"];
+-4421931157050579440 -> -6214699244534090356 [label="",color="2",fontcolor="2"];
+-6214699244534090356 [label="/\\ playerTurn = \"P2\"\n/\\ winner = \"P2\"\n/\\ heaps = <<0, 1, 0>>\n/\\ gameOver = TRUE"];
+-8392747434911481575 -> -1122631937242885523 [label="",color="2",fontcolor="2"];
+-8392747434911481575 -> -2241615789332671867 [label="",color="2",fontcolor="2"];
+-2241615789332671867 [label="/\\ playerTurn = \"P2\"\n/\\ winner = \"P2\"\n/\\ heaps = <<1, 0, 0>>\n/\\ gameOver = TRUE"];
+-3301816474497259784 -> -6214699244534090356 [label="",color="2",fontcolor="2"];
+-3301816474497259784 -> -2241615789332671867 [label="",color="2",fontcolor="2"];
+{rank = same; -4016890848435527345;}
+{rank = same; -3301816474497259784;-8392747434911481575;-4421931157050579440;}
+}
+}

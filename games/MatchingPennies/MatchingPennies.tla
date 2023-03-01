@@ -1,4 +1,4 @@
--------------------------- MODULE MatchingPennies --------------------------
+ -------------------------- MODULE MatchingPennies --------------------------
 
 (***************************************************************************)
 (* This is a model for the Matching Pennies game. An explanation of the    *)
