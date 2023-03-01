@@ -48,7 +48,7 @@ TypeOK == /\ playerTurn \in {"P1", "P2", "START"}
 (* taken, up to the full amount of the heap such that the total sizes of   *)
 (* the heaps is greater than zero.  For example, given a heap <<0,0,5>> a  *)
 (* playerTurn can from 1 to 4 from it, since that playerTurn wants to      *)
-(* leave one item for the other playerTurn to take (i.e.  a playerTurn     *)
+(* leave one item for the other playerTurn to take (i.e. a player          *)
 (* won't lose on purpose).                                                 *)
 (***************************************************************************)
 
