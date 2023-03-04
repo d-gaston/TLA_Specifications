@@ -1,0 +1,85 @@
+strict digraph DiskGraph {
+edge [colorscheme="paired12"]
+nodesep=0.35;
+subgraph cluster_graph {
+color="white";
+-1935555864946303569 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 0],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 0],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 0] }",style = filled]
+-1935555864946303569 -> -444480085040593369 [label="",color="2",fontcolor="2"];
+-444480085040593369 [label="tables = { [id |-> 1, hasMenu |-> TRUE, lastSeenCount |-> 0, course |-> 0],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 0],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 0] }"];
+-444480085040593369 -> -6435328104781482396 [label="",color="2",fontcolor="2"];
+-6435328104781482396 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 1],\n  [id |-> 2, hasMenu |-> TRUE, lastSeenCount |-> 1, course |-> 0],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 0] }"];
+-6435328104781482396 -> 2501829439337025018 [label="",color="2",fontcolor="2"];
+2501829439337025018 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 1],\n  [id |-> 3, hasMenu |-> TRUE, lastSeenCount |-> 2, course |-> 0] }"];
+2501829439337025018 -> -1145513048010630833 [label="",color="2",fontcolor="2"];
+-1145513048010630833 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 1] }"];
+-1145513048010630833 -> -5196552030887693850 [label="",color="2",fontcolor="2"];
+-5196552030887693850 [label="tables = { [id |-> 1, hasMenu |-> TRUE, lastSeenCount |-> 2, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 1] }"];
+-5196552030887693850 -> 414093118005537361 [label="",color="2",fontcolor="2"];
+414093118005537361 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 1] }"];
+414093118005537361 -> -1727260825827637449 [label="",color="2",fontcolor="2"];
+-1727260825827637449 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 2],\n  [id |-> 2, hasMenu |-> TRUE, lastSeenCount |-> 3, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 1] }"];
+-1727260825827637449 -> -7202420458001273 [label="",color="2",fontcolor="2"];
+-7202420458001273 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 2],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 4, course |-> 1] }"];
+-7202420458001273 -> -3340994983776276717 [label="",color="2",fontcolor="2"];
+-3340994983776276717 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 2],\n  [id |-> 3, hasMenu |-> TRUE, lastSeenCount |-> 4, course |-> 1] }"];
+-3340994983776276717 -> -3508258269391743889 [label="",color="2",fontcolor="2"];
+-3508258269391743889 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 4, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 2],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 2] }"];
+-3508258269391743889 -> -3195501621705699353 [label="",color="2",fontcolor="2"];
+-3195501621705699353 [label="tables = { [id |-> 1, hasMenu |-> TRUE, lastSeenCount |-> 4, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 2],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 2] }"];
+-3195501621705699353 -> -8508405940135487948 [label="",color="2",fontcolor="2"];
+-8508405940135487948 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 3],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 4, course |-> 2],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 2] }"];
+-8508405940135487948 -> -1128788380726599366 [label="",color="2",fontcolor="2"];
+-1128788380726599366 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 0],\n  [id |-> 2, hasMenu |-> TRUE, lastSeenCount |-> 4, course |-> 2],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 2] }"];
+-1128788380726599366 -> 2846762862383527470 [label="",color="2",fontcolor="2"];
+2846762862383527470 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 0],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 3],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 4, course |-> 2] }"];
+2846762862383527470 -> -2841223552283817992 [label="",color="2",fontcolor="2"];
+-2841223552283817992 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 0],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 0],\n  [id |-> 3, hasMenu |-> TRUE, lastSeenCount |-> 4, course |-> 2] }"];
+-2841223552283817992 -> 5326482356012085101 [label="",color="2",fontcolor="2"];
+5326482356012085101 [label="tables = { [id |-> 1, hasMenu |-> TRUE, lastSeenCount |-> 2, course |-> 0],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 0],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 3] }"];
+5326482356012085101 -> 670185336215709141 [label="",color="2",fontcolor="2"];
+670185336215709141 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 0],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 0] }"];
+670185336215709141 -> -1948840301746468685 [label="",color="2",fontcolor="2"];
+-1948840301746468685 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 1],\n  [id |-> 2, hasMenu |-> TRUE, lastSeenCount |-> 2, course |-> 0],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 0] }"];
+-1948840301746468685 -> -7470117390459232102 [label="",color="2",fontcolor="2"];
+-7470117390459232102 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 0] }"];
+-7470117390459232102 -> -5327546825672924402 [label="",color="2",fontcolor="2"];
+-5327546825672924402 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 1],\n  [id |-> 3, hasMenu |-> TRUE, lastSeenCount |-> 2, course |-> 0] }"];
+-5327546825672924402 -> 893767825034428175 [label="",color="2",fontcolor="2"];
+893767825034428175 [label="tables = { [id |-> 1, hasMenu |-> TRUE, lastSeenCount |-> 3, course |-> 1],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 1] }"];
+893767825034428175 -> -7131278656623521385 [label="",color="2",fontcolor="2"];
+-7131278656623521385 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 1] }"];
+-7131278656623521385 -> 6867495896215371362 [label="",color="2",fontcolor="2"];
+6867495896215371362 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 2],\n  [id |-> 2, hasMenu |-> TRUE, lastSeenCount |-> 3, course |-> 1],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 1] }"];
+6867495896215371362 -> 4084131652959588967 [label="",color="2",fontcolor="2"];
+4084131652959588967 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 2, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 0, course |-> 2],\n  [id |-> 3, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 1] }"];
+4084131652959588967 -> 1651079115545055731 [label="",color="2",fontcolor="2"];
+1651079115545055731 [label="tables = { [id |-> 1, hasMenu |-> FALSE, lastSeenCount |-> 3, course |-> 2],\n  [id |-> 2, hasMenu |-> FALSE, lastSeenCount |-> 1, course |-> 2],\n  [id |-> 3, hasMenu |-> TRUE, lastSeenCount |-> 3, course |-> 1] }"];
+1651079115545055731 -> -3508258269391743889 [label="",color="2",fontcolor="2"];
+{rank = same; -1935555864946303569;}
+{rank = same; -444480085040593369;}
+{rank = same; -6435328104781482396;}
+{rank = same; 2501829439337025018;}
+{rank = same; -1145513048010630833;}
+{rank = same; -5196552030887693850;}
+{rank = same; 414093118005537361;}
+{rank = same; -1727260825827637449;}
+{rank = same; -7202420458001273;}
+{rank = same; -3340994983776276717;}
+{rank = same; -3508258269391743889;}
+{rank = same; -3195501621705699353;}
+{rank = same; -8508405940135487948;}
+{rank = same; -1128788380726599366;}
+{rank = same; 2846762862383527470;}
+{rank = same; -2841223552283817992;}
+{rank = same; 5326482356012085101;}
+{rank = same; 670185336215709141;}
+{rank = same; -1948840301746468685;}
+{rank = same; -7470117390459232102;}
+{rank = same; -5327546825672924402;}
+{rank = same; 893767825034428175;}
+{rank = same; -7131278656623521385;}
+{rank = same; 6867495896215371362;}
+{rank = same; 4084131652959588967;}
+{rank = same; 1651079115545055731;}
+}
+}
